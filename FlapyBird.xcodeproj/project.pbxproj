@@ -62,7 +62,7 @@
 		F47B226F1C8FEDFA00483467 /* FlapyBird */ = {
 			isa = PBXGroup;
 			children = (
-				F4B0D7581C98300C00C871C9 /* poka02.mp3 */,
+				F48041FF1C9843F800E17E46 /* 効果音 */,
 				F47B22701C8FEDFA00483467 /* AppDelegate.swift */,
 				F47B22721C8FEDFA00483467 /* ViewController.swift */,
 				F47B22741C8FEDFA00483467 /* Main.storyboard */,
@@ -72,6 +72,14 @@
 				F47B227C1C8FEDFA00483467 /* Info.plist */,
 			);
 			path = FlapyBird;
+			sourceTree = "<group>";
+		};
+		F48041FF1C9843F800E17E46 /* 効果音 */ = {
+			isa = PBXGroup;
+			children = (
+				F4B0D7581C98300C00C871C9 /* poka02.mp3 */,
+			);
+			name = "効果音";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
