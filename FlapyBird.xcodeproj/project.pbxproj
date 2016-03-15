@@ -14,6 +14,8 @@
 		F47B22781C8FEDFA00483467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47B22771C8FEDFA00483467 /* Assets.xcassets */; };
 		F47B227B1C8FEDFA00483467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47B22791C8FEDFA00483467 /* LaunchScreen.storyboard */; };
 		F47B22871C8FEFDD00483467 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47B22861C8FEFDD00483467 /* SpriteKit.framework */; };
+		F4B0D7571C97E6F600C871C9 /* powerup03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4B0D7561C97E6F600C871C9 /* powerup03.mp3 */; };
+		F4B0D7591C98300C00C871C9 /* poka02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4B0D7581C98300C00C871C9 /* poka02.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F47B227A1C8FEDFA00483467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F47B227C1C8FEDFA00483467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47B22861C8FEFDD00483467 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		F4B0D7561C97E6F600C871C9 /* powerup03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = powerup03.mp3; path = ../../../../Desktop/powerup03.mp3; sourceTree = "<group>"; };
+		F4B0D7581C98300C00C871C9 /* poka02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = poka02.mp3; path = ../../../../Downloads/poka02.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		F47B226F1C8FEDFA00483467 /* FlapyBird */ = {
 			isa = PBXGroup;
 			children = (
+				F4B0D7581C98300C00C871C9 /* poka02.mp3 */,
+				F4B0D7561C97E6F600C871C9 /* powerup03.mp3 */,
 				F47B22701C8FEDFA00483467 /* AppDelegate.swift */,
 				F47B22721C8FEDFA00483467 /* ViewController.swift */,
 				F47B22741C8FEDFA00483467 /* Main.storyboard */,
@@ -129,6 +135,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B0D7571C97E6F600C871C9 /* powerup03.mp3 in Resources */,
+				F4B0D7591C98300C00C871C9 /* poka02.mp3 in Resources */,
 				F47B227B1C8FEDFA00483467 /* LaunchScreen.storyboard in Resources */,
 				F47B22781C8FEDFA00483467 /* Assets.xcassets in Resources */,
 				F47B22761C8FEDFA00483467 /* Main.storyboard in Resources */,
