@@ -27,7 +27,7 @@ class GameScene: SKScene , SKPhysicsContactDelegate{
     var scoreLabelNode:SKLabelNode!
     var bestScoreLabelNode:SKLabelNode!
     var itemScoreLabelNode:SKLabelNode!
-    var item:SKSpriteNode!
+    var item:SKShapeNode!
     
     
     override func didMoveToView(view: SKView) {
@@ -46,7 +46,7 @@ class GameScene: SKScene , SKPhysicsContactDelegate{
         wallNode = SKNode()
         scrollNode.addChild(wallNode)
         
-        item = SKSpriteNode()
+        
         
         
    
@@ -182,8 +182,8 @@ class GameScene: SKScene , SKPhysicsContactDelegate{
             wall.addChild(scoreNode)
             
             //itemの作成//////////////////////
-            let item = SKShapeNode()
-            item.fillColor = UIColor.redColor()
+            self.item = SKShapeNode(circleOfRadius: 20)
+            self.item.fillColor = UIColor.redColor()
            // let textureB = SKTexture(imageNamed: "bird_a")
         //   self.item = SKSpriteNode(texture: textureB)
                 self.item.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: 5, height: 5))
