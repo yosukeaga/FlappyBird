@@ -269,7 +269,7 @@ class GameScene: SKScene , SKPhysicsContactDelegate{
             itemScore++
             itemScoreLabelNode.text = "ItemScore:\(itemScore)"
             
-            let soundAction:SKAction = SKAction.playSoundFileNamed("poka02.mp3", waitForCompletion: true)
+            let soundAction:SKAction = SKAction.playSoundFileNamed("poka01.mp3", waitForCompletion: true)
             self.runAction(soundAction)
         
             contact.bodyA.node!.removeFromParent()

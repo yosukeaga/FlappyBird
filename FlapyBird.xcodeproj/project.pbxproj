@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4126EB01C91D462004747AD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4126EAF1C91D461004747AD /* GameScene.swift */; };
-		F47B22711C8FEDFA00483467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47B22701C8FEDFA00483467 /* AppDelegate.swift */; };
-		F47B22731C8FEDFA00483467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47B22721C8FEDFA00483467 /* ViewController.swift */; };
-		F47B22761C8FEDFA00483467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47B22741C8FEDFA00483467 /* Main.storyboard */; };
+		F45B030F1C99836300F00D91 /* poka01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45B030E1C99836300F00D91 /* poka01.mp3 */; };
 		F47B22781C8FEDFA00483467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47B22771C8FEDFA00483467 /* Assets.xcassets */; };
-		F47B227B1C8FEDFA00483467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47B22791C8FEDFA00483467 /* LaunchScreen.storyboard */; };
 		F47B22871C8FEFDD00483467 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47B22861C8FEFDD00483467 /* SpriteKit.framework */; };
-		F4B0D7591C98300C00C871C9 /* poka02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4B0D7581C98300C00C871C9 /* poka02.mp3 */; };
+		F48042141C984C5C00E17E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48042131C984C5C00E17E46 /* AppDelegate.swift */; };
+		F480421A1C984CAA00E17E46 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48042191C984CAA00E17E46 /* GameScene.swift */; };
+		F48042201C984CD900E17E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F480421F1C984CD900E17E46 /* ViewController.swift */; };
+		F480422A1C984E0A00E17E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48042291C984E0A00E17E46 /* Main.storyboard */; };
+		F480422E1C984EA800E17E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F480422D1C984EA800E17E46 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F4126EAF1C91D461004747AD /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F45B030E1C99836300F00D91 /* poka01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = poka01.mp3; sourceTree = "<group>"; };
 		F47B226D1C8FEDFA00483467 /* FlapyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlapyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F47B22701C8FEDFA00483467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F47B22721C8FEDFA00483467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F47B22751C8FEDFA00483467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F47B22771C8FEDFA00483467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F47B227A1C8FEDFA00483467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F47B227C1C8FEDFA00483467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47B22861C8FEFDD00483467 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		F4B0D7581C98300C00C871C9 /* poka02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = poka02.mp3; path = ../../../../Downloads/poka02.mp3; sourceTree = "<group>"; };
+		F48042131C984C5C00E17E46 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
+		F48042191C984CAA00E17E46 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F480421F1C984CD900E17E46 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F48042291C984E0A00E17E46 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		F480422D1C984EA800E17E46 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../../../../.Trash/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,24 +62,16 @@
 		F47B226F1C8FEDFA00483467 /* FlapyBird */ = {
 			isa = PBXGroup;
 			children = (
-				F48041FF1C9843F800E17E46 /* 効果音 */,
-				F47B22701C8FEDFA00483467 /* AppDelegate.swift */,
-				F47B22721C8FEDFA00483467 /* ViewController.swift */,
-				F47B22741C8FEDFA00483467 /* Main.storyboard */,
+				F45B030E1C99836300F00D91 /* poka01.mp3 */,
+				F48042131C984C5C00E17E46 /* AppDelegate.swift */,
+				F480421F1C984CD900E17E46 /* ViewController.swift */,
+				F48042291C984E0A00E17E46 /* Main.storyboard */,
+				F48042191C984CAA00E17E46 /* GameScene.swift */,
 				F47B22771C8FEDFA00483467 /* Assets.xcassets */,
-				F4126EAF1C91D461004747AD /* GameScene.swift */,
-				F47B22791C8FEDFA00483467 /* LaunchScreen.storyboard */,
+				F480422D1C984EA800E17E46 /* LaunchScreen.storyboard */,
 				F47B227C1C8FEDFA00483467 /* Info.plist */,
 			);
 			path = FlapyBird;
-			sourceTree = "<group>";
-		};
-		F48041FF1C9843F800E17E46 /* 効果音 */ = {
-			isa = PBXGroup;
-			children = (
-				F4B0D7581C98300C00C871C9 /* poka02.mp3 */,
-			);
-			name = "効果音";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B0D7591C98300C00C871C9 /* poka02.mp3 in Resources */,
-				F47B227B1C8FEDFA00483467 /* LaunchScreen.storyboard in Resources */,
+				F45B030F1C99836300F00D91 /* poka01.mp3 in Resources */,
+				F480422E1C984EA800E17E46 /* LaunchScreen.storyboard in Resources */,
 				F47B22781C8FEDFA00483467 /* Assets.xcassets in Resources */,
-				F47B22761C8FEDFA00483467 /* Main.storyboard in Resources */,
+				F480422A1C984E0A00E17E46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,32 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4126EB01C91D462004747AD /* GameScene.swift in Sources */,
-				F47B22731C8FEDFA00483467 /* ViewController.swift in Sources */,
-				F47B22711C8FEDFA00483467 /* AppDelegate.swift in Sources */,
+				F48042141C984C5C00E17E46 /* AppDelegate.swift in Sources */,
+				F480421A1C984CAA00E17E46 /* GameScene.swift in Sources */,
+				F48042201C984CD900E17E46 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F47B22741C8FEDFA00483467 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F47B22751C8FEDFA00483467 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F47B22791C8FEDFA00483467 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F47B227A1C8FEDFA00483467 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F47B227D1C8FEDFA00483467 /* Debug */ = {
