@@ -182,11 +182,11 @@ class GameScene: SKScene , SKPhysicsContactDelegate{
             wall.addChild(scoreNode)
             
             //itemの作成//////////////////////
-            //let item = SKShapeNode()
-            //item.fillColor = UIColor.redColor()
-            let textureB = SKTexture(imageNamed: "bird_a")
-                self.item = SKSpriteNode(texture: textureB)
-                self.item.physicsBody = SKPhysicsBody(rectangleOfSize: textureB.size())
+            let item = SKShapeNode()
+            item.fillColor = UIColor.redColor()
+           // let textureB = SKTexture(imageNamed: "bird_a")
+        //   self.item = SKSpriteNode(texture: textureB)
+                self.item.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: 5, height: 5))
                 self.item.position = CGPoint(x: upper.size.width - self.bird.size.width * 4 , y: self.frame.size.height/2 )
                 self.item.physicsBody?.dynamic = false
                 self.item.physicsBody?.categoryBitMask = self.itemCategory
