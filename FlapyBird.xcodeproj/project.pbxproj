@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F45B030F1C99836300F00D91 /* poka01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F45B030E1C99836300F00D91 /* poka01.mp3 */; };
-		F47B22781C8FEDFA00483467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47B22771C8FEDFA00483467 /* Assets.xcassets */; };
+		F45B03111C99889900F00D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45B03101C99889900F00D91 /* Assets.xcassets */; };
 		F47B22871C8FEFDD00483467 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47B22861C8FEFDD00483467 /* SpriteKit.framework */; };
 		F48042141C984C5C00E17E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48042131C984C5C00E17E46 /* AppDelegate.swift */; };
 		F480421A1C984CAA00E17E46 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48042191C984CAA00E17E46 /* GameScene.swift */; };
@@ -19,8 +19,8 @@
 
 /* Begin PBXFileReference section */
 		F45B030E1C99836300F00D91 /* poka01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = poka01.mp3; sourceTree = "<group>"; };
+		F45B03101C99889900F00D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F47B226D1C8FEDFA00483467 /* FlapyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlapyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F47B22771C8FEDFA00483467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F47B227C1C8FEDFA00483467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47B22861C8FEFDD00483467 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		F48042131C984C5C00E17E46 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,12 +62,12 @@
 		F47B226F1C8FEDFA00483467 /* FlapyBird */ = {
 			isa = PBXGroup;
 			children = (
+				F45B03101C99889900F00D91 /* Assets.xcassets */,
 				F45B030E1C99836300F00D91 /* poka01.mp3 */,
 				F48042131C984C5C00E17E46 /* AppDelegate.swift */,
 				F480421F1C984CD900E17E46 /* ViewController.swift */,
 				F48042291C984E0A00E17E46 /* Main.storyboard */,
 				F48042191C984CAA00E17E46 /* GameScene.swift */,
-				F47B22771C8FEDFA00483467 /* Assets.xcassets */,
 				F480422D1C984EA800E17E46 /* LaunchScreen.storyboard */,
 				F47B227C1C8FEDFA00483467 /* Info.plist */,
 			);
@@ -134,7 +134,7 @@
 			files = (
 				F45B030F1C99836300F00D91 /* poka01.mp3 in Resources */,
 				F480422E1C984EA800E17E46 /* LaunchScreen.storyboard in Resources */,
-				F47B22781C8FEDFA00483467 /* Assets.xcassets in Resources */,
+				F45B03111C99889900F00D91 /* Assets.xcassets in Resources */,
 				F480422A1C984E0A00E17E46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
